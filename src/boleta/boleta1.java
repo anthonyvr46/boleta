@@ -42,7 +42,7 @@ public class boleta1 extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 48)); // NOI18N
         jLabel2.setText("BOLETA DE ARTEFACTOS ");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, 290, 80));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 290, 80));
 
         jButton1.setText("INICIAR BOLETA ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -50,10 +50,10 @@ public class boleta1 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 210, 160, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 210, 120, 30));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/boleta/f6a03d_f2b858b6cd254c1c9653d47a83529f02.gif"))); // NOI18N
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 180, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 210, 220, 170));
 
         jButton2.setText("salir del programa");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -61,10 +61,10 @@ public class boleta1 extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 200, 120, 60));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 377, 120, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/boleta/fondos-iphone-7-portada.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 776, 490));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/boleta/458.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 410));
 
         jMenu1.setText("File");
 
